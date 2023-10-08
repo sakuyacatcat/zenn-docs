@@ -5,14 +5,17 @@
   "main": "index.js",
   "scripts": {
     "init": "zenn init",
-    "new:article": "zenn new:article --slug $npm_config_slug",
-    "new:book": "zenn new:book",
+    "generate": "exsc generate",
     "preview": "zenn preview"
+  },
+  "exsc": {
+    "generate": "zenn new:article --slug \"$(date +%Y%m%d)-{1}\""
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "zenn-cli": "^0.1.147"
+    "zenn-cli": "^0.1.147",
+    "exsc": "git+https://gist.github.com/cc7ad5bc1a8417b57accb254f31be6a1.git"
   }
 }
