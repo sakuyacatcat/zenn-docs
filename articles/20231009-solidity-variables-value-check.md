@@ -3,7 +3,7 @@ title: "Solidity で変数の値を確認する方法"
 emoji: "💬"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: ["solidity", "ethereum", "debugging", "console.log"]
-published: false
+published: true
 ---
 
 ## TL;DR
