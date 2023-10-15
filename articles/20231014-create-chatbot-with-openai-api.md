@@ -16,4 +16,4 @@ Udemy教材の[ChatGPT を使った AI チャットボットの Web アプリ・
 
 クレジットをチャージして使う必要がある。
 SignUpから3ヶ月分有効な無料クレジットがある。それを切らしてしまうと、クレジットをチャージする必要がある。
-クレジット無しでOpenAI APIを実行しようとすると、`RateLimitError: You exceeded your current quota, please check your plan and billing details.`のランタイムエラーに出くわす。
+クレジット無しでOpenAI APIを実行しようとすると`RateLimitError`に出くわす。
