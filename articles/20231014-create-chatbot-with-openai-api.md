@@ -3,7 +3,7 @@ title: "LLMでチャットボットを作ってみた学び"
 emoji: "🙌"
 type: "tech" # tech: 技術記事 / idea: アイデア
 topics: [chatbot, openai, 機械学習, 自然言語処理]
-published: false
+published: true
 ---
 
 ## TL;DR
