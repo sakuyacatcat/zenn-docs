@@ -7,7 +7,7 @@
     "init": "zenn init",
     "generate": "exsc generate",
     "lint": "npx textlint ./articles/*.md",
-    "fix": "npx textlint --fix ./articles/*.md",
+    "lint:fix": "npx textlint --fix ./articles/*.md",
     "preview": "zenn preview"
   },
   "exsc": {
