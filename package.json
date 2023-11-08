@@ -18,7 +18,7 @@
   "license": "ISC",
   "dependencies": {
     "exsc": "git+https://gist.github.com/cc7ad5bc1a8417b57accb254f31be6a1.git",
-    "textlint": "^13.3.3",
+    "textlint": "^13.4.0",
     "zenn-cli": "^0.1.148"
   },
   "devDependencies": {
