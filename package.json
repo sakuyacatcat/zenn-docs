@@ -19,7 +19,7 @@
   "dependencies": {
     "exsc": "git+https://gist.github.com/cc7ad5bc1a8417b57accb254f31be6a1.git",
     "textlint": "^13.3.3",
-    "zenn-cli": "^0.1.150"
+    "zenn-cli": "^0.1.151"
   },
   "devDependencies": {
     "textlint-rule-no-mixed-zenkaku-and-hankaku-alphabet": "^1.0.1",
