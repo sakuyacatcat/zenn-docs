@@ -47,7 +47,7 @@ AWS の運用において、コスト管理は重要な課題です。従来、S
 
 ```mermaid
 flowchart TD
-    A["EventBridge<br>(Cron Schedule)"] --> B["Step Functions 状態マシン<br>(Cost Explorer API 呼び出し & レポート生成)"]
+    A["EventBridge<br>(Cron Schedule)"] --> B["Step Functions 状態マシン<br>(Cost Explorer API 呼び出し・レポート生成)"]
     B --> C["Step Functions 実行完了イベント<br>(EventBridge)"]
     C --> D["EventBridge<br>Input Transformer"]
     D --> E["SNS トピック"]
