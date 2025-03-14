@@ -1,3 +1,5 @@
+TITLE := ""
+
 .PHONY: install
 install:
 	pip install -r requirements.txt && pre-commit install && npm install
@@ -5,6 +7,10 @@ install:
 .PHONY: run
 run:
 	npm run preview
+
+.PHONY: article
+article:
+	npm run article $(TITLE)
 
 .PHONY: lint
 lint:
