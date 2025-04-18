@@ -68,7 +68,7 @@ flowchart LR
 
 - **app/assets:**  
   Sprockets による CSS、画像、フォントなどの管理用
-- **app/javascript:**  
+- **app/JavaScript:**  
   JavaScript のソースコードはここに移動
   - 例: `app/javascript/application.js` がエントリーポイント
 - **app/assets/builds:**  
