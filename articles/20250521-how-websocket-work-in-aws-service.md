@@ -101,4 +101,4 @@ ALB は HTTP/1.1 のアップグレードリクエストを受け入れると、
 - ActionCable + PostgreSQL LISTEN/NOTIFY で、複数サーバ間のブロードキャストが保証される
 - Elastic Beanstalk の CNAME スワップ を用いた Blue/Green デプロイは、ユーザーへの影響を最小化して実施可能
 
-この調査を通じて、ActionCable のブロードキャストの仕組みや、PostgreSQL の Pub/Sub 機能を利用したメッセージの配信方法についても理解が深まりました。今後、ActionCable を利用したアプリケーションの設計やデプロイにおいて、これらの知識が役立つことを期待しています。
+この調査を通じて、ActionCable のブロードキャストの仕組みや、PostgreSQL の Pub/Sub 機能を利用したメッセージの配信方法についても理解が深まりました。今後、ActionCable を利用したアプリケーションの設計やデプロイにおいて、これらの知識が役立てていきたいです。
